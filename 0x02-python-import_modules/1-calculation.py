@@ -4,7 +4,6 @@ if __name__ == '__main__':
 
     a = 10
     b = 5
-    
     sums = add(a, b)
     diff = sub(a, b)
     product = mul(a, b)
