@@ -5,7 +5,12 @@ if __name__ == '__main__':
     a = 10
     b = 5
     
-    print(f"{a} + {b} = {add(a, b)}")
-    print(f"{a} - {b} = {sub(a, b)}")
-    print(f"{a} * {b} = {mul(a, b)}")
-    print(f"{a} / {b} = {div(a, b)}")
+    sums = add(a, b)
+    diff = sub(a, b)
+    product = mul(a, b)
+    quotient = div(a, b)
+
+    print(f"{a} + {b} = {sums}")
+    print(f"{a} - {b} = {diff}")
+    print(f"{a} * {b} = {product}")
+    print(f"{a} / {b} = {quotient}")
