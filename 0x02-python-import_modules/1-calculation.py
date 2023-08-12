@@ -10,7 +10,7 @@ if __name__ == '__main__':
     product = mul(a, b)
     quotient = div(a, b)
 
-    print(f"{a} + {b} = {sums}")
-    print(f"{a} - {b} = {diff}")
-    print(f"{a} * {b} = {product}")
-    print(f"{a} / {b} = {quotient}")
+    print("{} + {} = {}".format(a, b, sums))
+    print("{} - {} = {}".format(a, b, diff))
+    print("{} * {} = {}".format(a, b, product))
+    print("{} / {} = {}".format(a, b, quotient))
