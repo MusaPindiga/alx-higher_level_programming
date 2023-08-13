@@ -3,11 +3,13 @@ if __name__ == '__main__':
     from sys import argv
 
     counter = len(argv) - 1
-    num, sums, i = 0, 0, 1
+    sum = 0
+    i = 1
+    num = 0
 
     while i <= counter:
         num = int(argv[i])
-        sums += num
+        sum += num
         i += 1
-    print(sums)
+    print(sum)
 
