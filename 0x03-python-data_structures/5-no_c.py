@@ -6,4 +6,4 @@ def no_c(my_string):
 
     new_string = ''.join(char for char in my_string
                          if char not in characters_to_remove)
-    return new_strig
+    return new_string
