@@ -6,6 +6,6 @@ def print_list_integer(my_list):
     i = 0
     
     while i < counter:
-        print("{} ".format(my_list[i]))
+        print('%d'% my_list[i])
         i += 1
 
