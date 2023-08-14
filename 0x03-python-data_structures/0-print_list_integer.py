@@ -2,7 +2,6 @@
 
 def print_list_integer(my_list):
     """Prints each integer element from the given list."""
-  
     counter = len(my_list)
     i = 0
     
