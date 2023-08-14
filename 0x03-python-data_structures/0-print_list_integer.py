@@ -1,17 +1,8 @@
 #!/usr/bin/python3
 
 def print_list_integer(my_list):
-    """Prints each integer element from the given list.
-
-    This function takes a list of integers as input and prints each
-    element of the list on a separate line.
-
-    Arguments:
-        my_list (list): A list of integer elements.
-
-    Returns:
-        Nothing
-    """
+    """Prints each integer element from the given list."""
+  
     counter = len(my_list)
     i = 0
     
