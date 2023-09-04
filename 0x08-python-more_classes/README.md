@@ -9,3 +9,4 @@ Python's support for classes and objects is a fundamental feature of the languag
 ## Folder Contents
 - `0-rectangle.py:` an empty class Rectangle that defines a rectangle
 - `1-rectangle.py:`  class Rectangle that defines a rectangle by: (based on 0-rectangle.py) with additional functionalities
+- `2-rectangle.py:`  a class Rectangle that defines a rectangle by: (based on 1-rectangle.py) with additional `area and perimeter of the rectangle
