@@ -99,7 +99,6 @@ But an empty list of lists will succeed.
 
 An identical TypeError is raised if ``matrix`` is not specifically a list of
 lists.
-
 ::
 
     >>> matrix = [1, 2, 3]
